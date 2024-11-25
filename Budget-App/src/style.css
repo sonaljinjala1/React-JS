@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .app-container {
+    max-width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+   h4 {
+    margin: 10px;
+    margin-bottom: 18px;
+    color: #fff !important;
+  }
+  h3{
+    color: #000;
+
+  }
+  
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100% !important;
+  }
+  
+  .budget-box, .expense-box {
+    width: 48%;
+    background: #f1f3f5;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .budget-box input, .expense-box input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .budget-box button, .expense-box button {
+    width: 50%;
+    padding: 10px;
+    background: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .budget-box button:hover, .expense-box button:hover {
+    background: #357ae8;
+  }
+  
+  .summary-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #587ef4;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .summary-item {
+    text-align: center;
+    color: #fff !important;
+    flex: 1;
+  }
+  
+  .summary-item p {
+    margin: 5px;
+    font-size: 18px;
+    color: #fff !important;
+    margin-bottom: 10px;
+  }
+  
+  .expense-list-section {
+    margin-top: 20px;
+    
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    background: #f8f9fa;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expense-details {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center !important;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  .expense-amount {
+    padding-left: 20px; /* Padding between title and amount */
+  }
+  
+  .expense-item button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .edit-btn {
+    color: #007bff;
+  }
+  
+  .delete-btn {
+    color: #dc3545;
+  }
+  ul{
+    padding-left: 0 !important;
+  }
+  
